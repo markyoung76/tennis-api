@@ -6,6 +6,10 @@ Small project using basic HTML, CSS &amp; JavaScript to practice fetching data f
 
 <img src="source-material/images/tennis-api-excalidraw-design-low-fidelity.png" alt="low-fidelity-wireframe" width="800px"/>
 
+### Web Page Colour Palette (used Coolors to find & select colour scheme)
+
+<img src="source-material/images/tennis-api-colour-scheme-coolors.png" alt="low-fidelity-wireframe" width="800px"/>
+
 ### High Fidelity Design
 
 <img src="source-material/images/tennis-api-figma-design-high-fidelity.png" alt="high-fidelity-wireframe" width="800px"/>
