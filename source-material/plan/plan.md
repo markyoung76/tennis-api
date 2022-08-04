@@ -12,4 +12,4 @@
 6. Set-up our HTML, CSS and JavaScript files and link everything accordingly to the HTML document, so that it all operates as it should.
 7. Create a source material folder and an image subfolder to store all of our wireframe designs and any other artwork that we will be making use of for our web page.
 8. Also, create a further subfolder for any planning to be considered and implemented (inside this plan.md file).
-9.
+9. Start coding. Build-up the HTML & CSS elements to establish a functioning web page.

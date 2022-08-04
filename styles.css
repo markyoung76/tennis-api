@@ -1,8 +1,57 @@
 :root {
-  --bg-colour: #013300;
+  --txt-primary: #54008b;
+  --txt-variant: #fcfcfc;
+  --txt-secondary-borders: #013300;
+  --btns-and-stats-bg: #006633;
+  --stats-main-bg-filter: #84b118;
+  --font-primary: "Roboto", sans-serif;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+}
+
+.border-design {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 140px;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
-  color: red;
+  font-family: var(--font-primary);
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--txt-primary);
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: var(--txt-primary);
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.hori-line {
+  background-color: var(--txt-secondary-borders);
+  height: 2px;
+  width: 1400px;
+  position: absolute;
+  top: 60px;
+  left: 140px;
+}
+
+.vert-line {
+  background-color: var(--txt-secondary-borders);
+  height: 780px;
+  width: 2px;
+  position: absolute;
+  left: 68px;
+  margin-left: -3px;
 }
