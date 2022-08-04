@@ -13,3 +13,6 @@
 7. Create a source material folder and an image subfolder to store all of our wireframe designs and any other artwork that we will be making use of for our web page.
 8. Also, create a further subfolder for any planning to be considered and implemented (inside this plan.md file).
 9. Start coding. Build-up the HTML & CSS elements to establish a functioning web page.
+10. Used semantic HTML and CSS styling to create the header and borders in-line with our original wireframe design.
+11. Built the 'stats display area' by importing the tennis court background image and positioning appropriately to the borders.
+12. Applied a linear gradient filter on top of the background image to acheieve the desired appearance (as per our Figma wireframe design).

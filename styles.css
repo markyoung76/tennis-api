@@ -1,3 +1,5 @@
+/* variables */
+
 :root {
   --txt-primary: #54008b;
   --txt-variant: #fcfcfc;
@@ -6,6 +8,8 @@
   --stats-main-bg-filter: #84b118;
   --font-primary: "Roboto", sans-serif;
 }
+
+/* header and borders */
 
 .logo {
   height: 120px;
@@ -54,4 +58,33 @@ h2 {
   position: absolute;
   left: 68px;
   margin-left: -3px;
+}
+
+/* stats display area */
+
+.linear-gradient-filter {
+  height: 750px;
+  width: 1400px;
+  border-radius: 25px;
+  position: absolute;
+  top: 140px;
+  left: 140px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--stats-main-bg-filter),
+    transparent
+  );
+  opacity: 0.55;
+  z-index: 1;
+}
+
+.stats-display-area {
+  height: 750px;
+  width: 1400px;
+  border-radius: 25px;
+  position: absolute;
+  top: 140px;
+  left: 140px;
+  background-image: url("source-material/images/tennis-court-pic.jpeg");
+  background-position: center;
 }
