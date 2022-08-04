@@ -1,6 +1,6 @@
 # tennis-api
 
-Small project using basic HTML, CSS &amp; JavaScript to practice fetching data from an API and displaying it on a bespoke webpage (designed using Excalidraw, Figma and Coolors).
+Small project using basic HTML, CSS &amp; JavaScript to practice fetching data from an API and displaying it on a bespoke web page (designed using Excalidraw, Figma and Coolors).
 
 ### Low Fidelity Design (Excalidraw)
 
@@ -16,7 +16,7 @@ Small project using basic HTML, CSS &amp; JavaScript to practice fetching data f
 - Hex Code #FCFCFC = txt-variant
 - Hex Code #013300 = txt-secondary-and-borders
 - Hex Code #006633 = buttons-and-stats-bg
-- Hex Code #84B118 = stats-main-bg
+- Hex Code #84B118 = stats-main-bg-filter
 
 ### High Fidelity Design (Figma)
 
