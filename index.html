@@ -14,6 +14,8 @@
     <title>Tennis API</title>
   </head>
   <body>
+    <!-- header and borders -->
+
     <img
       class="logo"
       src="source-material/images/tennis-ball-image.jpeg"
@@ -25,8 +27,35 @@
     </header>
     <hr class="hori-line" />
     <hr class="vert-line" />
+
+    <!-- stats display area -->
+
     <div class="linear-gradient-filter"></div>
     <div class="stats-display-area"></div>
+
+    <!-- search and nav bar -->
+
+    <navbar class="navbar">
+      <div class="nav-container-left">
+        <select class="dropdown">
+          <option>ATP</option>
+          <option>WTA</option>
+        </select>
+      </div>
+      <div class="nav-container-right">
+        <input
+          class="search-input"
+          type="text"
+          placeholder="search rank number..."
+        />
+        <button class="search-btn">search</button>
+        <div class="nav-arrows">
+          <button class="backward-arrow"></button>
+          <button class="forward-arrow"></button>
+        </div>
+      </div>
+    </navbar>
+
     <script src="app.js"></script>
   </body>
 </html>

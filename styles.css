@@ -75,7 +75,7 @@ h2 {
     transparent
   );
   opacity: 0.55;
-  z-index: 1;
+  z-index: -1;
 }
 
 .stats-display-area {
@@ -87,4 +87,74 @@ h2 {
   left: 140px;
   background-image: url("source-material/images/tennis-court-pic.jpeg");
   background-position: center;
+  z-index: -2;
+}
+
+/* search and nav bar */
+
+.navbar {
+  display: flex;
+  border: solid 1px red;
+  height: 50px;
+  width: 1200px;
+  position: absolute;
+  top: 160px;
+  left: 240px;
+  justify-content: space-evenly;
+}
+
+.nav-container-left {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  right: 200px;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border-color: var(--txt-secondary-borders);
+  border-width: 3px;
+  background-color: #fcfcfc;
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  text-align: center;
+  /* appearance: none; */
+}
+
+.nav-container-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-input {
+  position: relative;
+  right: 200px;
+  height: 32px;
+  width: 300px;
+  border-radius: 50px;
+  border-color: var(--txt-secondary-borders);
+  border-width: 3px;
+  background-color: #fcfcfc;
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  text-align: center;
+}
+
+.search-btn {
+  position: relative;
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  border-color: var(--txt-secondary-borders);
+  border-width: 3px;
+  background-color: var(--btns-and-stats-bg);
+  color: var(--txt-variant);
+  font-family: var(--font-primary);
+  font-size: 18px;
+  text-align: center;
 }
