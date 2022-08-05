@@ -2,7 +2,7 @@
 
 Small project using basic HTML, CSS &amp; JavaScript to practice fetching data from an API and displaying it on a bespoke web page (designed using Excalidraw, Figma and Coolors).
 
-### Low Fidelity Design (Excalidraw)
+### Low-Fidelity Design (Excalidraw)
 
 <img src="source-material/images/tennis-api-excalidraw-design-low-fidelity.png" alt="low-fidelity-wireframe" width="800px"/>
 
@@ -18,6 +18,12 @@ Small project using basic HTML, CSS &amp; JavaScript to practice fetching data f
 - Hex Code #006633 = buttons-and-stats-bg
 - Hex Code #84B118 = stats-main-bg-filter
 
-### High Fidelity Design (Figma)
+### High-Fidelity Design (Figma)
 
-<img src="source-material/images/tennis-api-figma-design-high-fidelity.png" alt="high-fidelity-wireframe" width="800px"/>
+#### before: empty placeholders
+
+<img src="source-material/images/tennis-api-figma-design-high-fidelity-before.png" alt="high-fidelity-wireframe" width="800px"/>
+
+#### after: example api data added
+
+<img src="source-material/images/tennis-api-figma-design-high-fidelity-after.png" alt="high-fidelity-wireframe" width="800px"/>
