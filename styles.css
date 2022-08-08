@@ -96,10 +96,10 @@ h2 {
   display: flex;
   border: solid 1px red;
   height: 50px;
-  width: 1200px;
+  width: 916px;
   position: absolute;
   top: 160px;
-  left: 240px;
+  left: 380px;
   justify-content: space-evenly;
 }
 
@@ -109,8 +109,8 @@ h2 {
 }
 
 .dropdown {
-  position: relative;
-  right: 200px;
+  position: absolute;
+  left: 0;
   height: 40px;
   width: 150px;
   border-radius: 20px;
@@ -121,6 +121,7 @@ h2 {
   font-family: var(--font-primary);
   font-size: 20px;
   text-align: center;
+  align-items: center;
   /* appearance: none; */
 }
 
@@ -132,9 +133,9 @@ h2 {
 
 .search-input {
   position: relative;
-  right: 200px;
+  left: 45px;
   height: 32px;
-  width: 300px;
+  width: 380px;
   border-radius: 50px;
   border-color: var(--txt-secondary-borders);
   border-width: 3px;
@@ -143,12 +144,14 @@ h2 {
   font-family: var(--font-primary);
   font-size: 20px;
   text-align: center;
+  align-items: center;
 }
 
 .search-btn {
   position: relative;
+  left: 62px;
   height: 40px;
-  width: 80px;
+  width: 100px;
   border-radius: 50px;
   border-color: var(--txt-secondary-borders);
   border-width: 3px;
@@ -157,4 +160,90 @@ h2 {
   font-family: var(--font-primary);
   font-size: 18px;
   text-align: center;
+  align-items: center;
+}
+
+.search-btn:hover {
+  background-color: transparent;
+  box-shadow: 0.2px 0.2px 5px 2.5px #84b118;
+}
+
+/* navigation buttons */
+
+.nav-arrows {
+  position: absolute;
+  right: 0;
+}
+
+#arrow-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.backward-arrow {
+  position: relative;
+  right: 5px;
+}
+
+.fa-angle-double-left {
+  color: var(--txt-variant);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.forward-arrow {
+  position: relative;
+  left: 5px;
+}
+
+.fa-angle-double-right {
+  color: var(--txt-variant);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* information display containers */
+
+.info-disp-container {
+  display: flex;
+  border: solid 1px red;
+  height: 620px;
+  width: 916px;
+  position: absolute;
+  top: 240px;
+  left: 380px;
+  justify-content: space-evenly;
+}
+
+.rank-panel {
+  border: solid 3px var(--txt-secondary-borders);
+  background-color: var(--btns-and-stats-bg);
+  height: 580px;
+  width: 260px;
+  border-radius: 25px;
+  position: absolute;
+  top: 18px;
+  left: 0;
+}
+
+.player-panel {
+  border: solid 3px var(--txt-secondary-borders);
+  background-color: var(--btns-and-stats-bg);
+  height: 260px;
+  width: 580px;
+  border-radius: 25px;
+  position: absolute;
+  top: 18px;
+  left: 330px;
+}
+
+.tour-panel {
+  border: solid 3px var(--txt-secondary-borders);
+  background-color: var(--btns-and-stats-bg);
+  height: 260px;
+  width: 580px;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 18px;
+  left: 330px;
 }

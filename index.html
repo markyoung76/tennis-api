@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Tennis API</title>
   </head>
@@ -49,12 +53,27 @@
           placeholder="search rank number..."
         />
         <button class="search-btn">search</button>
+
+        <!-- navigation buttons -->
+
         <div class="nav-arrows">
-          <button class="backward-arrow"></button>
-          <button class="forward-arrow"></button>
+          <button id="arrow-btn" class="backward-arrow">
+            <i class="fa fa-angle-double-left"></i>
+          </button>
+          <button id="arrow-btn" class="forward-arrow">
+            <i class="fa fa-angle-double-right"></i>
+          </button>
         </div>
       </div>
     </navbar>
+
+    <!-- information display containers -->
+
+    <div class="info-disp-container">
+      <div class="rank-panel"></div>
+      <div class="player-panel"></div>
+      <div class="tour-panel"></div>
+    </div>
 
     <script src="app.js"></script>
   </body>
