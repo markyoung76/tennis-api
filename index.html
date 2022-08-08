@@ -26,8 +26,8 @@
       alt="tennis-ball-image"
     />
     <header class="border-design">
-      <h1>TENNIS API:</h1>
-      <h2>ATP/WTA PLAYER STATS</h2>
+      <h1 class="website-main-title">TENNIS API:</h1>
+      <h2 class="website-sub-title">ATP/WTA PLAYER STATS</h2>
     </header>
     <hr class="hori-line" />
     <hr class="vert-line" />
@@ -70,9 +70,60 @@
     <!-- information display containers -->
 
     <div class="info-disp-container">
-      <div class="rank-panel"></div>
-      <div class="player-panel"></div>
-      <div class="tour-panel"></div>
+      <!-- rank panel -->
+
+      <div class="rank-panel">
+        <h3 class="panel-header">RANK & PROFILE</h3>
+      </div>
+
+      <!-- player panel -->
+
+      <div class="player-panel">
+        <h3 class="panel-header">PLAYER DATA</h3>
+        <div id="sh-ph-position">
+          <!-- ^^^ id = subheader and placeholder positioning -->
+          <h4 id="panel-subheader">Full Name:</h4>
+          <div class="placeholder-long">
+            <p class="ph4" id="ph4"></p>
+          </div>
+        </div>
+        <div id="sh-ph-position">
+          <h4 id="panel-subheader">Gender:</h4>
+          <div class="placeholder-short">
+            <p class="ph5" id="ph5"></p>
+          </div>
+        </div>
+        <div id="sh-ph-position">
+          <h4 id="panel-subheader">Country:</h4>
+          <div class="placeholder-long">
+            <p class="ph6" id="ph6"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- tour panel -->
+
+      <div class="tour-panel">
+        <h3 class="panel-header">TOUR DATA</h3>
+        <div id="sh-ph-position">
+          <!-- ^^^ id = subheader and placeholder positioning -->
+          <h4 id="panel-subheader">Tour Type:</h4>
+          <div class="placeholder-short">
+            <p class="ph7" id="ph7"></p>
+          </div>
+        </div>
+        <div id="sh-ph-position">
+          <h4 id="panel-subheader">Points Total:</h4>
+          <div class="placeholder-short">
+            <p class="ph8" id="ph8"></p>
+          </div>
+        </div>
+        <div id="sh-ph-position">
+          <h4 id="panel-subheader">Tournaments:</h4>
+          <div class="placeholder-short">
+            <p class="ph9" id="ph9"></p>
+          </div>
+      </div>
     </div>
 
     <script src="app.js"></script>

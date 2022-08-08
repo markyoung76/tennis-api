@@ -25,7 +25,7 @@
   left: 140px;
 }
 
-h1 {
+.website-main-title {
   font-family: var(--font-primary);
   font-size: 3.2rem;
   font-weight: 900;
@@ -33,7 +33,7 @@ h1 {
   margin-top: 10px;
 }
 
-h2 {
+.website-sub-title {
   font-family: var(--font-primary);
   font-size: 2.5rem;
   font-weight: 100;
@@ -122,6 +122,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   align-items: center;
+  cursor: pointer;
   /* appearance: none; */
 }
 
@@ -161,6 +162,7 @@ h2 {
   font-size: 18px;
   text-align: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .search-btn:hover {
@@ -178,6 +180,7 @@ h2 {
 #arrow-btn {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .backward-arrow {
@@ -215,9 +218,55 @@ h2 {
   justify-content: space-evenly;
 }
 
+.panel-header {
+  color: var(--txt-variant);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#sh-ph-position {
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 25px;
+}
+
+#panel-subheader {
+  position: relative;
+  left: 10px;
+  color: var(--txt-variant);
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.placeholder-long {
+  position: absolute;
+  left: 130px;
+  height: 35px;
+  width: 380px;
+  border-radius: 50px;
+  border: solid 3px var(--txt-secondary-borders);
+  background-color: #fcfcfc;
+}
+
+.placeholder-short {
+  position: absolute;
+  left: 130px;
+  height: 35px;
+  width: 150px;
+  border-radius: 20px;
+  border: solid 3px var(--txt-secondary-borders);
+  background-color: #fcfcfc;
+}
+
+/* rank panel */
+
 .rank-panel {
   border: solid 3px var(--txt-secondary-borders);
-  background-color: var(--btns-and-stats-bg);
+  background-color: rgba(0, 102, 51, 0.75);
   height: 580px;
   width: 260px;
   border-radius: 25px;
@@ -226,9 +275,11 @@ h2 {
   left: 0;
 }
 
+/* player panel */
+
 .player-panel {
   border: solid 3px var(--txt-secondary-borders);
-  background-color: var(--btns-and-stats-bg);
+  background-color: rgba(0, 102, 51, 0.75);
   height: 260px;
   width: 580px;
   border-radius: 25px;
@@ -237,9 +288,11 @@ h2 {
   left: 330px;
 }
 
+/* tour panel */
+
 .tour-panel {
   border: solid 3px var(--txt-secondary-borders);
-  background-color: var(--btns-and-stats-bg);
+  background-color: rgba(0, 102, 51, 0.75);
   height: 260px;
   width: 580px;
   border-radius: 25px;
