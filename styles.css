@@ -290,6 +290,15 @@
   left: 91px;
 }
 
+.ph1 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 32px;
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+}
+
 .placeholder-profile {
   background-color: #fcfcfc;
   height: 200px;
@@ -298,6 +307,14 @@
   border: solid 3px var(--txt-secondary-borders);
   position: relative;
   top: 49px;
+  left: 26px;
+}
+
+.ph2 {
+  height: 140px;
+  width: 140px;
+  position: relative;
+  top: 26px;
   left: 26px;
 }
 
@@ -310,6 +327,15 @@
   position: relative;
   top: 95px;
   left: 25px;
+}
+
+.ph3 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  bottom: 7px;
 }
 
 /* player panel */
@@ -325,6 +351,36 @@
   left: 330px;
 }
 
+.ph4 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 10px;
+  bottom: 14px;
+}
+
+.ph5 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 10px;
+  bottom: 14px;
+}
+
+.ph6 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 10px;
+  bottom: 14px;
+}
+
 /* tour panel */
 
 .tour-panel {
@@ -336,4 +392,34 @@
   position: absolute;
   bottom: 18px;
   left: 330px;
+}
+
+.ph7 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 10px;
+  bottom: 14px;
+}
+
+.ph8 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 10px;
+  bottom: 14px;
+}
+
+.ph9 {
+  color: var(--txt-primary);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 10px;
+  bottom: 14px;
 }

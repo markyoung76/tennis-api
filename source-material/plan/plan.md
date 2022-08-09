@@ -17,3 +17,11 @@
 11. Build the 'stats display area' by importing the tennis court background image and positioning appropriately to the borders.
 12. Apply a linear gradient filter on top of the background image to achieve the desired appearance (as per our Figma wireframe design).
 13. Code and create our navigation bar and search component (that includes a dropdown selector, input field (rank number), search button and 2 x search navigation buttons for moving backwards or forwards through pages of player rankings, in increments of 100 results per page).
+14. Add the background image and the linear gradient filter on top and size/position as required.
+15. Add all three opaque green information display panels and size/postion them according to fit within the background appropriately.
+16. Add the three different panel headers (e.g. RANK & PROFILE, PLAYER DATA, TOUR DATA).
+17. Starting with the PLAYER DATA & TOUR DATA panels, add and style the panel subheaders and information placeholders.
+18. Do the same with the RANK & PROFILE panel, adding the necessary, 'rank number', 'player profile photo' and 'short name' placeholders.
+19. Commence with the required JavaScript to fetch data from the API and present it inside all of the information placeholders.
+20. Work on getting the input field to take a 'rank number' and present the relevant search data from the API on the web page.
+21. Make the 'search' button operational by triggering the fetch function when clicked.
