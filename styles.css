@@ -31,6 +31,7 @@
   font-weight: 900;
   color: var(--txt-primary);
   margin-top: 10px;
+  width: 290px;
 }
 
 .website-sub-title {
@@ -39,7 +40,8 @@
   font-weight: 100;
   color: var(--txt-primary);
   margin-top: 1px;
-  margin-left: 10px;
+  margin-left: 5px;
+  width: 500px;
 }
 
 .hori-line {
@@ -94,11 +96,11 @@
 
 .navbar {
   display: flex;
-  border: solid 1px red;
+  /* border: solid 1px red; */ /* temporary border edges for positioning requirements */
   height: 50px;
   width: 916px;
   position: absolute;
-  top: 160px;
+  top: 175px;
   left: 380px;
   justify-content: space-evenly;
 }
@@ -209,7 +211,7 @@
 
 .info-disp-container {
   display: flex;
-  border: solid 1px red;
+  /* border: solid 1px red; */ /* temporary border edges for positioning requirements */
   height: 620px;
   width: 916px;
   position: absolute;
@@ -273,6 +275,39 @@
   position: absolute;
   top: 18px;
   left: 0;
+}
+
+.placeholder-rank {
+  background-color: #fcfcfc;
+  height: 70px;
+  width: 70px;
+  border-radius: 18px;
+  border: solid 3px var(--txt-secondary-borders);
+  position: relative;
+  top: 5px;
+  left: 91px;
+}
+
+.placeholder-profile {
+  background-color: #fcfcfc;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: solid 3px var(--txt-secondary-borders);
+  position: relative;
+  top: 49px;
+  left: 26px;
+}
+
+.placeholder-name-short {
+  background-color: #fcfcfc;
+  height: 36px;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 3px var(--txt-secondary-borders);
+  position: relative;
+  top: 95px;
+  left: 25px;
 }
 
 /* player panel */
