@@ -96,7 +96,8 @@
 
 .navbar {
   display: flex;
-  /* border: solid 1px red; */ /* temporary border edges for positioning requirements */
+  /* border: solid 1px red; */
+  /* ^^^ temporary border edges for positioning requirements */
   height: 50px;
   width: 916px;
   position: absolute;
@@ -176,7 +177,7 @@
 
 .nav-arrows {
   position: absolute;
-  right: 0;
+  right: -3px;
 }
 
 #arrow-btn {
@@ -187,23 +188,23 @@
 
 .backward-arrow {
   position: relative;
-  right: 5px;
+  right: 1px;
 }
 
-.fa-angle-double-left {
+.fa-caret-left {
   color: var(--txt-variant);
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
 }
 
 .forward-arrow {
   position: relative;
-  left: 5px;
+  left: 1px;
 }
 
-.fa-angle-double-right {
+.fa-caret-right {
   color: var(--txt-variant);
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
 }
 
@@ -211,7 +212,8 @@
 
 .info-disp-container {
   display: flex;
-  /* border: solid 1px red; */ /* temporary border edges for positioning requirements */
+  /* border: solid 1px red; */
+  /* ^^^ temporary border edges for positioning requirements */
   height: 620px;
   width: 916px;
   position: absolute;
