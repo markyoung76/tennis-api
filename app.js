@@ -8,18 +8,19 @@ const options = {
 
 let type = "atp";
 
-async function playerInfoDisplay() {
-  const response = await fetch(
-    `https://sportscore1.p.rapidapi.com/tennis-rankings/${type}?page=1`,
-    options
-  );
-  const data = await response.json();
+const inputNumberValue = document.querySelector("#search-input");
+inputNumberValue.addEventListener("input", (e) => {
+  console.log(e.target.value);
+  const searchedRank = e.target.value;
+  let num = searchedRank - 1;
 
-  const inputNumberValue = document.querySelector("#search-input");
-  inputNumberValue.addEventListener("input", (e) => {
-    console.log(e.target.value);
-    const searchedRank = e.target.value;
-    let num = searchedRank - 1;
+  async function playerInfoDisplay() {
+    console.log("I still work!");
+    const response = await fetch(
+      `https://sportscore1.p.rapidapi.com/tennis-rankings/${type}?page=1`,
+      options
+    );
+    const data = await response.json();
 
     data.data.map(function () {
       let ph1 = document.querySelector("#ph1");
@@ -41,10 +42,7 @@ async function playerInfoDisplay() {
       ph8.innerHTML = `${data.data[num].points}`;
       ph9.innerHTML = `${data.data[num].tournaments}`;
     });
-  });
-}
-
-let button = document.querySelector("#search-btn");
-button.addEventListener("click", playerInfoDisplay);
-
-playerInfoDisplay();
+  }
+  let button = document.querySelector("#search-btn");
+  button.addEventListener("click", playerInfoDisplay);
+});
