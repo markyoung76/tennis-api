@@ -25,3 +25,5 @@
 19. Work on getting the input field to take a 'rank number' and present the relevant search data from the API on the web page.
 20. Make the 'search' button operational by triggering the fetch function when clicked... done by adding an event listener to the search button and Math.floor Math.random to our JS to generate a different set of player data from the API/per click.
 21. Do research on how to connect our input field to our search button, so that when a user inputs a number there will be relevant data fetched and displayed from the API inside the information display panel placeholders.
+22. Need to find a solution to delay keypress until after user has finished typing, to prevent multiple fetch requests occurring.
+23. Work on editing the url for the search parameters, with reference to the dropdown (ATP/WTA), to allow the user to select between the men's or women's player statistics being displayed.
