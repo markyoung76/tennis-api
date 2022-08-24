@@ -42,6 +42,7 @@
     <navbar class="navbar">
       <div class="nav-container-left">
         <select class="dropdown" id="dropdown">
+          <option value="" disabled selected>select tour</option>
           <option value="atp">ATP</option>
           <option value="wta">WTA</option>
         </select>
@@ -54,7 +55,7 @@
           min="1"
           autocomplete="off"
         />
-        <button class="search-btn" id="search-btn">search</button>
+        <button class="search-btn" id="search-btn" onclick="document.getElementById('search-input').value=''">search</button>
 
         <!-- navigation buttons -->
 
